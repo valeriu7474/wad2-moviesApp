@@ -4,7 +4,7 @@ import MovieList from "../movieList";
 import FilterControls from "../filterControls";
 
 
-const MovieListPageTemplate = ({movies, title, buttonHandler}) => {
+const MovieListPageTemplate = ({ movies, title, action }) => {
   const [nameFilter, setNameFilter] = useState("");
   const [genreFilter, setGenreFilter] = useState("0");
   const genre = Number(genreFilter)
@@ -25,14 +25,14 @@ const MovieListPageTemplate = ({movies, title, buttonHandler}) => {
 
   return (
     <>
-      <Header title={title} numMovies={displayedMovies.length} />
-      <FilterControls onUserInput={handleChange} numMovies={displayedMovies.length}/>
-      <MovieList
-        buttonHandler={buttonHandler}
-        movies={displayedMovies}
-      ></MovieList>
+    . . . . . 
+    <MovieList
+       action={action}
+       movies={displayedMovies}
+    />
+    . . . . . . 
     </>
-  );
+);
 };
 
 export default MovieListPageTemplate ;
