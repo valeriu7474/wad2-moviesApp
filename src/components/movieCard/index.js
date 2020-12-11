@@ -7,8 +7,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const MovieCard = ({movie, action}) => {
 
   return (
-    <div className="col-sm-3">
-      <div className="card  bg-white">
+    <div className="size">
+    <div className="flip-card">
+      <div className="flip-card-inner" >
       <Link to={`/movies/${movie.id}`}>
         <img
           className="card-img-tag center "
@@ -20,7 +21,7 @@ const MovieCard = ({movie, action}) => {
           }
         />
         </Link>
-        <div className="card-body">
+        <div className="flip-card-back">
           <h4 className="card-title ">{movie.title}</h4>
           <p>
             <FontAwesomeIcon icon={["fas", "calendar"]} />
@@ -29,12 +30,14 @@ const MovieCard = ({movie, action}) => {
           <p>
             <FontAwesomeIcon icon={["fas", "star"]} />
             <span> {movie.vote_average}</span>
-          </p>
-        </div>
-        <div className="card-footer">
+            <div className="card-footer">
            {action(movie)}
         </div>
+          </p>
+        </div>
+
       </div>
+    </div>
     </div>
   );
 };

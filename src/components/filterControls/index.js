@@ -17,17 +17,20 @@ const FilterControls = props => {
   };
 
   return (
-    <div className="row bg-warning">
-      <div className="col-md-12">
+
+
+    
+    <div className="newsearch ">
+      <div className=" ">
         <h4>
-          <span>List Filtering:</span>
+          <span className="newstyle">List Filtering:</span>
           <input
             type="text"
             placeholder="Title Search"
-            onChange={handleTextChange}
+            onChange={handleTextChange} className="newstyle"
           />
-          <span>Genre:</span>
-          <select id="genre" onChange={handleGenreChange}>
+          <span className="newstyle">Genre:</span>
+          <select id="genre" onChange={handleGenreChange} className="newstyle">
             {context.genres.map(genre => {
               return (
                 <option key={genre.id} value={genre.id}>
@@ -39,6 +42,9 @@ const FilterControls = props => {
         </h4>
       </div>
     </div>
+
+
+
   );
 };
 

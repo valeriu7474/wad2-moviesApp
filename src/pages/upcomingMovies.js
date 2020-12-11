@@ -1,6 +1,11 @@
 import React, {useContext} from "react";
+
 import MovieListPageTemplate from "../components/templateMovieListPage";
 import {MoviesContext} from '../contexts/moviesContext'
+
+
+
+
 
 const UpcomingMoviesPage = () => {
     const context = useContext(MoviesContext);
@@ -15,6 +20,7 @@ const UpcomingMoviesPage = () => {
             return ;
           }}
         />
+        
       );
     };
   

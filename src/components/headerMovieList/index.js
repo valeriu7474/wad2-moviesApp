@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = ({ title, numMovies }) => {
   return (
-    <div className="row">
-      <div className="col-md-6 offset-4">
+    <div className="row justify-content-md-center">
+      <div className="">
         <h2>
           {`${title}  `}
           <span className="badge badge-pill badge-success">{numMovies}</span>

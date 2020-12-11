@@ -15,10 +15,11 @@ import SiteHeader from './components/siteHeader'
 
 
 
+
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="jumbotron">
+      <div className="jumbotron bgani">
         <SiteHeader /> 
         <div className="container-fluid">
           <MoviesContextProvider>
