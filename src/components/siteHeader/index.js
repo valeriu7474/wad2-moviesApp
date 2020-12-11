@@ -4,6 +4,10 @@ import "../../globals/fontawesome";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./siteHeader.css";
 
+
+
+
+
 const SiteHeader = () => {
   return (
     
@@ -44,11 +48,19 @@ const SiteHeader = () => {
               Upcoming Movies
             </Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link text-white" to="/movies/nowplaying">
+              Now Playing
+            </Link>
+          </li>
         </ul>
       </nav>
+      
     </nav>
   );
+  
 };
+
 
 
 

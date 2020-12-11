@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./filterControls.css";
 import { GenresContext } from '../../contexts/genresContext' 
 
+
 const FilterControls = props => {
   const context = useContext(GenresContext);
 
@@ -41,11 +42,15 @@ const FilterControls = props => {
           </select>
         </h4>
       </div>
+      
     </div>
 
 
 
   );
+  
 };
+
+
 
 export default FilterControls;

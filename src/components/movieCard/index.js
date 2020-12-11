@@ -10,18 +10,24 @@ const MovieCard = ({movie, action}) => {
     <div className="size">
     <div className="flip-card">
       <div className="flip-card-inner" >
+      <div class="flip-card-front">
       <Link to={`/movies/${movie.id}`}>
         <img
           className="card-img-tag center "
           alt={movie.title}
           src={
             movie.poster_path
-              ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
+              ? `https://image.tmdb.org/t/p/w300/${movie.poster_path}`
               : "./film-poster-placeholder.png"
           }
         />
         </Link>
+        </div>
+    
+
+
         <div className="flip-card-back">
+          
           <h4 className="card-title ">{movie.title}</h4>
           <p>
             <FontAwesomeIcon icon={["fas", "calendar"]} />
@@ -35,9 +41,8 @@ const MovieCard = ({movie, action}) => {
         </div>
           </p>
         </div>
-
+        </div>
       </div>
-    </div>
     </div>
   );
 };
