@@ -53,6 +53,18 @@ Name: Valeriu Blascu
 ![][review]
 >Shows the full text for a movie review. 
 
+![][toprated]
+>Shows Top Rated movies
+
+![][upcoming]
+>Shows Upcoming movies
+
+![][popular]
+>Shows popular movies
+
+![][nowplaying]
+>Shows now playing movies
+
 ## Routing.
 
 ...... Insert a list of the additional routes supported by your Movies Fan app. If relevant, specify which of the routes require authentication, i.e. protected/private.
@@ -89,3 +101,7 @@ Name: Valeriu Blascu
 [reviewlink]: ./public/reviewlink.png
 [cardlink]: ./public/cardlink.png
 [stories]: ./public/storybook.png
+[toprated]: ./public/toprated.png
+[upcoming]: ./public/upcoming.png
+[popular]: ./public/popular.png
+[nowplaying]: ./public/nowplaying.png
