@@ -15,9 +15,7 @@ Name: Valeriu Blascu
  + Feature 8 = Navigation Bar Change
 
 
-## Setup requirements (If required).
 
-...... A brief explanation of any non-standard setup steps necessary to run your app/client locally (after cloning the repo) ........
 
 ## API Data Model.
 
@@ -33,13 +31,9 @@ Name: Valeriu Blascu
 
 ### Component catalogue (If required).
 
-....... Insert a screenshot from the Storybook UI, hi-light stories relating to new/modified components you developed - see example screenshot below] .......
-
 ![][stories]
 
 ### UI Design.
-
-...... Insert screenshots of the new/modified views you have added to the Movies Fan app. Include a caption for each one clearly stating its purpose and any user interaction it supports ........
 
 ![][cardlink]
 >Shows detailed information on a movie by a card animation flip. Clicking the 'Add to favourites' button will add the movie to the favourites page.
@@ -67,8 +61,6 @@ Name: Valeriu Blascu
 
 ## Routing.
 
-...... Insert a list of the additional routes supported by your Movies Fan app. If relevant, specify which of the routes require authentication, i.e. protected/private.
-
 + /movies/:id (public) - display movies page details.
 + /reviews/form (protected) - add movie review onto a specific movie.
 + /movies/favorites (protected) - displays the user's favorite movies selection.
@@ -81,17 +73,19 @@ Name: Valeriu Blascu
 
 ### Data hyperlinking.
 
-.... Use screenshots to illustrate where data hyperlinking is present in your views - include captions.
-
 ![][cardLink]
 > Clicking a card causes the display of that movie's details.
 
 ![][reviewLink]
 >Clicking the 'Full Review' for a review extract will display the full text of the review
 
+![][addfavorite]
+>Clicking the 'Add to favorite' button will add that movie to the favorite page view.
+
 ## Independent learning (If relevant).
 
-. . . . . Briefly mention each technologies/techniques used in your project codebase that were not covered in the lectures/labs. Provide source code filename references to support your assertions and include reference material links (articles/blogs).
+Improved my card flip design using "transform-style" from this link.
+https://www.w3schools.com/howto/howto_css_flip_card.asp
 
 ---------------------------------
 
@@ -105,3 +99,4 @@ Name: Valeriu Blascu
 [upcoming]: ./public/upcoming.png
 [popular]: ./public/popular.png
 [nowplaying]: ./public/nowplaying.png
+[addfavorite]: ./public/addfavorite.png
