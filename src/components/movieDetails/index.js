@@ -4,9 +4,10 @@ import "./movieDetails.css";
 export default ({ movie }) => {
   return (
     <>
+    <div className="moviereviewbox">
       <h4>Overview</h4>
       <p>{movie.overview}</p>
-      <ul className="list-group list-group-horizontal">
+      <ul className="list-group list-group-horizontal ">
         <li key="ruh" className="list-group-item list-group-item-dark">
           Runtime (min.)
         </li>
@@ -64,7 +65,7 @@ export default ({ movie }) => {
       </ul>
 
 
-
+</div>
     </>
   );
 };

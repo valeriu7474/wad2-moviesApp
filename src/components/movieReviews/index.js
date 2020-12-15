@@ -12,7 +12,7 @@ export default ({ movie }) => {
     });
   }, []);
   return (
-    <table className="table table-striped table-bordered table-hover">
+    <table className="table-light table-striped table-bordered table-hover">
       <thead>
         <tr>
           <th scope="col">Author</th>

@@ -48,24 +48,55 @@ h4 {
 .newhead {
   margin-top: -70px !important;
 
-  
+
 }
+
+
+
+
+
+
 
 .newsearch {
   position: absolute;
   z-index : 9999;
-  margin-top: -105px !important;
-margin-left: 8%;
+  margin-top: -50px !important;
 
 
   background-color: #ffffff;
   border-radius: 30px;
 
   padding: 3px;
-  width: 460px;
+  width: 500px;
 }
 
 .newstyle {
 
   font-size: 15px;
+}
+
+.nomoviesbox{
+
+padding-left:20px;
+
+  background-color: #ffffff;
+  border-radius: 30px;
+
+
+
+
+}
+
+
+
+.moviereviewbox{
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+
+}
+
+.movelogo{
+
+  
 }

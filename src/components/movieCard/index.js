@@ -25,7 +25,7 @@ const MovieCard = ({movie, action}) => {
         </div>
     
 
-
+        <Link to={`/movies/${movie.id}`}>
         <div className="flip-card-back">
           
           <h4 className="card-title ">{movie.title}</h4>
@@ -41,6 +41,7 @@ const MovieCard = ({movie, action}) => {
         </div>
           </p>
         </div>
+        </Link>
         </div>
       </div>
     </div>

@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = ({ title, numMovies }) => {
   return (
-    <div className="row justify-content-md-center">
-      <div className="">
+    <div className="text-black d-flex flex-row-reverse">
+      <div className="nomoviesbox">
         <h2>
           {`${title}  `}
           <span className="badge badge-pill badge-success">{numMovies}</span>
