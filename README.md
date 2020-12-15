@@ -86,6 +86,6 @@ Name: Valeriu Blascu
 [model]: ./data.jpg
 [movieDetail]: ./public/movieDetail.png
 [review]: ./public/review.png
-[reviewLink]: ./public/reviewLink.png
-[cardLink]: ./public/cardLink.png
+[reviewlink]: ./public/reviewlink.png
+[cardlink]: ./public/cardlink.png
 [stories]: ./public/storybook.png
