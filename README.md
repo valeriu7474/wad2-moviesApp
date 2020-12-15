@@ -1,13 +1,13 @@
 # Assignment 1 - ReactJS app.
 
-Name: ... your name ...
+Name: Valeriu Blascu
 
 ## Features.
 
 ...... A bullet-point list of the ADDITIONAL user features you have implemented for the  Movies Fan app ......,
  
- + Feature 1 - .... a statement of its purpose/objective ..... 
- + Feature 2 - .......
+ + Feature 1 - Upcoming Movies
+ + Feature 2 - Now Play
  + Feature 3 = ......
  + etc
  + etc
