@@ -12,6 +12,8 @@ import MoviePage from './pages/movieDetailsPage'
 import { BrowserRouter, Route, Redirect, Switch, Link } from "react-router-dom"    // CHANGED
 import FavoriteMoviesPage from './pages/favoritesMoviesPage'       // NEW
 import SiteHeader from './components/siteHeader'
+import PopularMoviesPage from "./pages/popularMoviesPage";
+import TopRatedMoviesPage from "./pages/topRatedMovies";
 
 
 
@@ -20,10 +22,10 @@ import SiteHeader from './components/siteHeader'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <div className="jumbotron bgani">
         <SiteHeader /> 
-        <div className="container-fluid">
+        <div className="container-fluid ">
           <MoviesContextProvider>
             <GenresContextProvider>    {/* NEW */}
               <Switch>  
@@ -32,6 +34,8 @@ const App = () => {
           <Route exact path="/movies/favorites" component={FavoriteMoviesPage} />
           <Route exact path="/movies/upcoming" component={UpcomingMoviesPage} />
           <Route exact path="/movies/nowplaying" component={NowPlayingPage} />
+          <Route exact path="/movies/popular" component={PopularMoviesPage} />
+          <Route exact path="/movies/toprated" component={TopRatedMoviesPage} />
           <Route path="/movies/:id" component={MoviePage} />
           <Route path="/" component={HomePage} />
           <Redirect from="*" to="/" />
