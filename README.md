@@ -7,10 +7,15 @@ Name: Valeriu Blascu
 ...... A bullet-point list of the ADDITIONAL user features you have implemented for the  Movies Fan app ......,
  
  + Feature 1 - Upcoming Movies
- + Feature 2 - Now Play
- + Feature 3 = ......
- + etc
- + etc
+ + Feature 2 - Now Playing
+ + Feature 3 = Popular
+ + Feature 3 = Top Rated
+ + Feature 4 = UI Redesign
+ + Feature 5 = Card UI Animation
+ + Feature 6 = Bootstrap Design Grid Change
+ + Feature 7 = Color Change
+ + Feature 8 = Navigation Bar Change
+
 
 ## Setup requirements (If required).
 
@@ -22,7 +27,11 @@ Name: Valeriu Blascu
 
 + https://api.themoviedb.org/3/movie/${id} - get detailed information on a specific movie. 
 + https://api.themoviedb.org/3/genre/movie/list - get a list of movie genres
-+ .......
++ https://api.themoviedb.org/3/movie/${id}/reviews - get movie reviews
++ https://api.themoviedb.org/3/movie/upcoming - get upcoming movies
++ https://api.themoviedb.org/3/movie/now_playing - get now playing movies
++ https://api.themoviedb.org/3/movie/popular - get popular movies
++ https://api.themoviedb.org/3/movie/top_rated - get top rated movies
 
 ## App Design.
 
@@ -36,8 +45,14 @@ Name: Valeriu Blascu
 
 ...... Insert screenshots of the new/modified views you have added to the Movies Fan app. Include a caption for each one clearly stating its purpose and any user interaction it supports ........
 
+![][cardLink]
+>Shows detailed information on a movie by a card animation flip. Clicking the 'Add to favourites' button will add the movie to the favourites page.
+
 ![][movieDetail]
 >Shows detailed information on a movie. Clicking the 'Show Reviews' button will display extracts from critic reviews.
+
+![][reviewLink]
+>Shows the review for a movie. 
 
 ![][review]
 >Shows the full text for a movie review. 
@@ -46,10 +61,15 @@ Name: Valeriu Blascu
 
 ...... Insert a list of the additional routes supported by your Movies Fan app. If relevant, specify which of the routes require authentication, i.e. protected/private.
 
++ /movies/:id (public) - display movies page details.
++ /reviews/form (protected) - add movie review onto a specific movie.
 + /movies/favorites (protected) - displays the user's favorite movies selection.
 + /reviews/:id (public) - displays the full text of a movie review.
-+ etc.
-+ etc.
++ /movies/upcoming (public) - displays upcoming movies.
++ /movies/nowplaying (public) - displays now playing movies.
++ /movies/popular (public) - displays popular movies.
++ /movies/toprated (public) - displays top rated movies.
+
 
 ### Data hyperlinking.
 
