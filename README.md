@@ -3,8 +3,6 @@
 Name: Valeriu Blascu
 
 ## Features.
-
-...... A bullet-point list of the ADDITIONAL user features you have implemented for the  Movies Fan app ......,
  
  + Feature 1 - Upcoming Movies
  + Feature 2 - Now Playing
@@ -22,8 +20,6 @@ Name: Valeriu Blascu
 ...... A brief explanation of any non-standard setup steps necessary to run your app/client locally (after cloning the repo) ........
 
 ## API Data Model.
-
-..... List the additional TMDB endpoints used in your assignment, e.g.
 
 + https://api.themoviedb.org/3/movie/${id} - get detailed information on a specific movie. 
 + https://api.themoviedb.org/3/genre/movie/list - get a list of movie genres
@@ -45,13 +41,13 @@ Name: Valeriu Blascu
 
 ...... Insert screenshots of the new/modified views you have added to the Movies Fan app. Include a caption for each one clearly stating its purpose and any user interaction it supports ........
 
-![][cardLink]
+![][cardlink]
 >Shows detailed information on a movie by a card animation flip. Clicking the 'Add to favourites' button will add the movie to the favourites page.
 
 ![][movieDetail]
 >Shows detailed information on a movie. Clicking the 'Show Reviews' button will display extracts from critic reviews.
 
-![][reviewLink]
+![][reviewlink]
 >Shows the review for a movie. 
 
 ![][review]
